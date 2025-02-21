@@ -1,0 +1,79 @@
+.footer-row2 .navbar-brand img{
+    height:200px !important;
+    width: 200px;
+}
+
+.text-justify{
+    text-align: justify;
+}
+.main-header{
+    background-color: #fff;
+}
+.nav-bg-b .custom-nav .nav-list li a.menu-links{
+    color:#050748
+}
+
+.ptb-30{
+    padding : 30px 0;
+}
+
+.ptb-60{
+    padding : 60px 0;
+}
+/* floating action button whatsapp */
+.fab-whatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 13px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab-whatsapp img {
+    width: 45px;
+    height: 45px;
+}
+
+.fab-whatsapp:hover {
+    background-color: #128c7e;
+    /* Darker green on hover */
+}
+.card-wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 90%;
+    margin-top: 20px;
+}
+
+.full-image-card {
+    text-align: center;
+}
+
+.image-div img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.info-text-block h4 a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.info-text-block h4 a:hover {
+    color: #007bff;
+}
+
+.card-wrapper:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
